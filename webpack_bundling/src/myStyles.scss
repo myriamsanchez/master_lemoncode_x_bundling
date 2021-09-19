@@ -1,10 +1,23 @@
-$purple-color: mediumpurple;
+// variables
+$background-color: mediumpurple;
+$text-color: white;
 
-.purple-background {
-  background-color: $purple-color;
+.header-style {
+  background-color: $background-color;
+  padding: 0.5rem;
+  .text {
+    color: $text-color;
+    text-align: center;
+    font-size: 150%;
+  }
 }
 
-img {
-  display: block;
-  width: 300px;
+#imgContainer {
+  img {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+
